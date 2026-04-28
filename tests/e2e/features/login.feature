@@ -7,5 +7,5 @@ Feature: Admin authentication
     Given admin user has navigated to the login page
     When admin user logs in with valid credentials
       | email             | password   |
-      | neptune@gmail.com | neptune123 |
+      | demo | demo |
     Then admin user should be navigated to admin panel dashboard
